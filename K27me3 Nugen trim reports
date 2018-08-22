@@ -1,0 +1,2805 @@
+
+ubuntu@nectarbioinformatics-tas:/NGS_Data/Andrew/AGRF_Trimmed_samples/AGRF_K4me3_Trimmed$ cp cut.sh ../AGRF_K27me3_Trimmed/
+ubuntu@nectarbioinformatics-tas:/NGS_Data/Andrew/AGRF_Trimmed_samples/AGRF_K4me3_Trimmed$ cd ../AGRF_K27me3_Trimmed/
+ubuntu@nectarbioinformatics-tas:/NGS_Data/Andrew/AGRF_Trimmed_samples/AGRF_K27me3_Trimmed$ bash cut.sh
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CCTGTCAA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/154467_TG12_K27me3_CB8LUANXX_CCTGTCAA_all_trimmed.fq 154467_TG12_K27me3_CB8LUANXX_CCTGTCAA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 250.52 s (4 us/read; 14.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              59,716,481
+Reads with adapters:                 1,825,199 (3.1%)
+Reads written (passing filters):    59,716,481 (100.0%)
+
+Total basepairs processed: 2,951,459,976 bp
+Total written (filtered):  2,944,438,361 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CCTGTCAA; Type: regular 3'; Length: 8; Trimmed: 1825199 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 22.9%
+  C: 22.8%
+  G: 19.1%
+  T: 35.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1285390 933070.0        0       1285390
+4       387210  233267.5        0       387210
+5       93730   58316.9 0       93730
+6       22862   14579.2 0       22862
+7       1104    3644.8  0       1104
+8       338     911.2   0       338
+9       684     911.2   0       684
+10      855     911.2   0       855
+11      857     911.2   0       857
+12      873     911.2   0       873
+13      806     911.2   0       806
+14      846     911.2   0       846
+15      801     911.2   0       801
+16      822     911.2   0       822
+17      858     911.2   0       858
+18      845     911.2   0       845
+19      863     911.2   0       863
+20      903     911.2   0       903
+21      884     911.2   0       884
+22      1185    911.2   0       1185
+23      836     911.2   0       836
+24      864     911.2   0       864
+25      847     911.2   0       847
+26      858     911.2   0       858
+27      885     911.2   0       885
+28      761     911.2   0       761
+29      875     911.2   0       875
+30      799     911.2   0       799
+31      828     911.2   0       828
+32      911     911.2   0       911
+33      852     911.2   0       852
+34      835     911.2   0       835
+35      792     911.2   0       792
+36      833     911.2   0       833
+37      817     911.2   0       817
+38      815     911.2   0       815
+39      791     911.2   0       791
+40      827     911.2   0       827
+41      844     911.2   0       844
+42      815     911.2   0       815
+43      763     911.2   0       763
+44      785     911.2   0       785
+45      742     911.2   0       742
+46      779     911.2   0       779
+47      827     911.2   0       827
+48      762     911.2   0       762
+49      643     911.2   0       643
+50      497     911.2   0       497
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGTGCATC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/154468_WT24_K27me3_CB8LUANXX_AGTGCATC_all_trimmed.fq 154468_WT24_K27me3_CB8LUANXX_AGTGCATC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 253.00 s (4 us/read; 14.50 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              61,127,636
+Reads with adapters:                 1,815,015 (3.0%)
+Reads written (passing filters):    61,127,636 (100.0%)
+
+Total basepairs processed: 3,021,325,273 bp
+Total written (filtered):  3,014,682,719 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGTGCATC; Type: regular 3'; Length: 8; Trimmed: 1815015 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 30.0%
+  C: 31.2%
+  G: 19.6%
+  T: 19.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1304651 955119.3        0       1304651
+4       414705  238779.8        0       414705
+5       61832   59695.0 0       61832
+6       3685    14923.7 0       3685
+7       5065    3730.9  0       5065
+8       830     932.7   0       830
+9       561     932.7   0       561
+10      593     932.7   0       593
+11      599     932.7   0       599
+12      536     932.7   0       536
+13      570     932.7   0       570
+14      566     932.7   0       566
+15      622     932.7   0       622
+16      581     932.7   0       581
+17      599     932.7   0       599
+18      628     932.7   0       628
+19      575     932.7   0       575
+20      672     932.7   0       672
+21      686     932.7   0       686
+22      1185    932.7   0       1185
+23      560     932.7   0       560
+24      602     932.7   0       602
+25      544     932.7   0       544
+26      542     932.7   0       542
+27      535     932.7   0       535
+28      585     932.7   0       585
+29      543     932.7   0       543
+30      579     932.7   0       579
+31      534     932.7   0       534
+32      546     932.7   0       546
+33      577     932.7   0       577
+34      523     932.7   0       523
+35      542     932.7   0       542
+36      584     932.7   0       584
+37      594     932.7   0       594
+38      587     932.7   0       587
+39      567     932.7   0       567
+40      544     932.7   0       544
+41      531     932.7   0       531
+42      613     932.7   0       613
+43      639     932.7   0       639
+44      525     932.7   0       525
+45      562     932.7   0       562
+46      497     932.7   0       497
+47      528     932.7   0       528
+48      484     932.7   0       484
+49      478     932.7   0       478
+50      329     932.7   0       329
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TGGCTACA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/154469_WT24_K27me3_CB8LUANXX_TGGCTACA_all_trimmed.fq 154469_WT24_K27me3_CB8LUANXX_TGGCTACA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 233.54 s (4 us/read; 14.19 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              55,243,814
+Reads with adapters:                 1,879,639 (3.4%)
+Reads written (passing filters):    55,243,814 (100.0%)
+
+Total basepairs processed: 2,730,732,338 bp
+Total written (filtered):  2,723,462,439 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: TGGCTACA; Type: regular 3'; Length: 8; Trimmed: 1879639 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 33.2%
+  C: 23.9%
+  G: 23.8%
+  T: 19.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1443656 863184.6        0       1443656
+4       302983  215796.1        0       302983
+5       77618   53949.0 0       77618
+6       6474    13487.3 0       6474
+7       4369    3371.8  0       4369
+8       259     843.0   0       259
+9       1274    843.0   0       1274
+10      1058    843.0   0       1058
+11      1078    843.0   0       1078
+12      811     843.0   0       811
+13      1576    843.0   0       1576
+14      1081    843.0   0       1081
+15      830     843.0   0       830
+16      1161    843.0   0       1161
+17      813     843.0   0       813
+18      1051    843.0   0       1051
+19      1232    843.0   0       1232
+20      1336    843.0   0       1336
+21      1095    843.0   0       1095
+22      1032    843.0   0       1032
+23      1447    843.0   0       1447
+24      1011    843.0   0       1011
+25      1050    843.0   0       1050
+26      1162    843.0   0       1162
+27      1038    843.0   0       1038
+28      1067    843.0   0       1067
+29      1215    843.0   0       1215
+30      1037    843.0   0       1037
+31      978     843.0   0       978
+32      1067    843.0   0       1067
+33      980     843.0   0       980
+34      1216    843.0   0       1216
+35      1328    843.0   0       1328
+36      903     843.0   0       903
+37      1446    843.0   0       1446
+38      820     843.0   0       820
+39      911     843.0   0       911
+40      1282    843.0   0       1282
+41      1039    843.0   0       1039
+42      999     843.0   0       999
+43      864     843.0   0       864
+44      942     843.0   0       942
+45      950     843.0   0       950
+46      1123    843.0   0       1123
+47      709     843.0   0       709
+48      870     843.0   0       870
+49      847     843.0   0       847
+50      551     843.0   0       551
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CAAGTCGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/155542_TG12_K27me3_CB8LUANXX_CAAGTCGT_all_trimmed.fq 155542_TG12_K27me3_CB8LUANXX_CAAGTCGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 228.93 s (4 us/read; 15.52 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              59,217,719
+Reads with adapters:                 1,238,436 (2.1%)
+Reads written (passing filters):    59,217,719 (100.0%)
+
+Total basepairs processed: 2,926,897,634 bp
+Total written (filtered):  2,907,710,594 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: CAAGTCGT; Type: regular 3'; Length: 8; Trimmed: 1238436 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 15.9%
+  C: 10.9%
+  G: 8.7%
+  T: 63.4%
+  none/other: 1.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       466930  925276.9        0       466930
+4       25974   231319.2        0       25974
+5       94159   57829.8 0       94159
+6       35790   14457.5 0       35790
+7       10800   3614.4  0       10800
+8       19067   903.6   0       19067
+9       31903   903.6   0       31903
+10      28326   903.6   0       28326
+11      525     903.6   0       525
+12      890     903.6   0       890
+13      15923   903.6   0       15923
+14      13180   903.6   0       13180
+15      29948   903.6   0       29948
+16      931     903.6   0       931
+17      13964   903.6   0       13964
+18      13136   903.6   0       13136
+19      13897   903.6   0       13897
+20      14606   903.6   0       14606
+21      12933   903.6   0       12933
+22      13142   903.6   0       13142
+23      16138   903.6   0       16138
+24      30786   903.6   0       30786
+25      899     903.6   0       899
+26      16216   903.6   0       16216
+27      12956   903.6   0       12956
+28      12090   903.6   0       12090
+29      13464   903.6   0       13464
+30      11812   903.6   0       11812
+31      24049   903.6   0       24049
+32      933     903.6   0       933
+33      14814   903.6   0       14814
+34      27297   903.6   0       27297
+35      531     903.6   0       531
+36      15482   903.6   0       15482
+37      12804   903.6   0       12804
+38      12559   903.6   0       12559
+39      12791   903.6   0       12791
+40      41759   903.6   0       41759
+41      831     903.6   0       831
+42      1350    903.6   0       1350
+43      13015   903.6   0       13015
+44      14956   903.6   0       14956
+45      13549   903.6   0       13549
+46      12594   903.6   0       12594
+47      12350   903.6   0       12350
+48      13027   903.6   0       13027
+49      11513   903.6   0       11513
+50      11847   903.6   0       11847
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a ACTCTGAG -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/155668_WT12_K27me3_CB8LUANXX_ACTCTGAG_all_trimmed.fq 155668_WT12_K27me3_CB8LUANXX_ACTCTGAG_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 270.70 s (4 us/read; 14.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              65,605,304
+Reads with adapters:                 1,858,815 (2.8%)
+Reads written (passing filters):    65,605,304 (100.0%)
+
+Total basepairs processed: 3,242,102,256 bp
+Total written (filtered):  3,233,835,063 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: ACTCTGAG; Type: regular 3'; Length: 8; Trimmed: 1858815 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 29.7%
+  C: 31.5%
+  G: 20.4%
+  T: 18.3%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1306432 1025082.9       0       1306432
+4       346186  256270.7        0       346186
+5       91517   64067.7 0       91517
+6       32045   16016.9 0       32045
+7       2227    4004.2  0       2227
+8       183     1001.1  0       183
+9       1946    1001.1  0       1946
+10      1902    1001.1  0       1902
+11      1642    1001.1  0       1642
+12      1882    1001.1  0       1882
+13      1877    1001.1  0       1877
+14      1845    1001.1  0       1845
+15      1884    1001.1  0       1884
+16      1891    1001.1  0       1891
+17      1864    1001.1  0       1864
+18      2148    1001.1  0       2148
+19      1926    1001.1  0       1926
+20      2158    1001.1  0       2158
+21      2373    1001.1  0       2373
+22      4939    1001.1  0       4939
+23      1961    1001.1  0       1961
+24      1829    1001.1  0       1829
+25      1720    1001.1  0       1720
+26      1906    1001.1  0       1906
+27      1953    1001.1  0       1953
+28      1990    1001.1  0       1990
+29      1784    1001.1  0       1784
+30      2351    1001.1  0       2351
+31      1636    1001.1  0       1636
+32      1610    1001.1  0       1610
+33      1574    1001.1  0       1574
+34      1675    1001.1  0       1675
+35      1853    1001.1  0       1853
+36      1893    1001.1  0       1893
+37      1835    1001.1  0       1835
+38      1653    1001.1  0       1653
+39      1769    1001.1  0       1769
+40      1865    1001.1  0       1865
+41      1886    1001.1  0       1886
+42      1889    1001.1  0       1889
+43      1800    1001.1  0       1800
+44      1898    1001.1  0       1898
+45      2094    1001.1  0       2094
+46      1957    1001.1  0       1957
+47      1583    1001.1  0       1583
+48      1378    1001.1  0       1378
+49      1655    1001.1  0       1655
+50      951     1001.1  0       951
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a GGTCGTAT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/155669_TG12_K27me3_CB8LUANXX_GGTCGTAT_all_trimmed.fq 155669_TG12_K27me3_CB8LUANXX_GGTCGTAT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 221.11 s (4 us/read; 13.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              51,000,036
+Reads with adapters:                   847,006 (1.7%)
+Reads written (passing filters):    51,000,036 (100.0%)
+
+Total basepairs processed: 2,520,886,585 bp
+Total written (filtered):  2,518,115,102 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: GGTCGTAT; Type: regular 3'; Length: 8; Trimmed: 847006 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 38.0%
+  C: 3.9%
+  G: 23.2%
+  T: 34.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       674579  796875.6        0       674579
+4       163682  199218.9        0       163682
+5       4921    49804.7 0       4921
+6       1633    12451.2 0       1633
+7       75      3112.8  0       75
+8       49      778.2   0       49
+9       47      778.2   0       47
+10      42      778.2   0       42
+11      40      778.2   0       40
+12      46      778.2   0       46
+13      45      778.2   0       45
+14      59      778.2   0       59
+15      45      778.2   0       45
+16      59      778.2   0       59
+17      40      778.2   0       40
+18      88      778.2   0       88
+19      56      778.2   0       56
+20      81      778.2   0       81
+21      75      778.2   0       75
+22      162     778.2   0       162
+23      45      778.2   0       45
+24      30      778.2   0       30
+25      51      778.2   0       51
+26      50      778.2   0       50
+27      44      778.2   0       44
+28      31      778.2   0       31
+29      47      778.2   0       47
+30      58      778.2   0       58
+31      49      778.2   0       49
+32      44      778.2   0       44
+33      18      778.2   0       18
+34      36      778.2   0       36
+35      45      778.2   0       45
+36      54      778.2   0       54
+37      48      778.2   0       48
+38      47      778.2   0       47
+39      43      778.2   0       43
+40      33      778.2   0       33
+41      27      778.2   0       27
+42      50      778.2   0       50
+43      63      778.2   0       63
+44      52      778.2   0       52
+45      29      778.2   0       29
+46      67      778.2   0       67
+47      38      778.2   0       38
+48      34      778.2   0       34
+49      25      778.2   0       25
+50      24      778.2   0       24
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TGTCGACT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/155688_WT12_K27me3_CB8LUANXX_TGTCGACT_all_trimmed.fq 155688_WT12_K27me3_CB8LUANXX_TGTCGACT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 266.76 s (4 us/read; 14.02 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              62,314,104
+Reads with adapters:                 2,225,691 (3.6%)
+Reads written (passing filters):    62,314,104 (100.0%)
+
+Total basepairs processed: 3,079,840,437 bp
+Total written (filtered):  3,072,579,218 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: TGTCGACT; Type: regular 3'; Length: 8; Trimmed: 2225691 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 25.7%
+  C: 26.2%
+  G: 24.4%
+  T: 23.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1852905 973657.9        0       1852905
+4       349290  243414.5        0       349290
+5       13114   60853.6 0       13114
+6       1880    15213.4 0       1880
+7       514     3803.4  0       514
+8       210     950.8   0       210
+9       183     950.8   0       183
+10      281     950.8   0       281
+11      112     950.8   0       112
+12      109     950.8   0       109
+13      196     950.8   0       196
+14      114     950.8   0       114
+15      121     950.8   0       121
+16      187     950.8   0       187
+17      239     950.8   0       239
+18      163     950.8   0       163
+19      208     950.8   0       208
+20      249     950.8   0       249
+21      191     950.8   0       191
+22      710     950.8   0       710
+23      95      950.8   0       95
+24      143     950.8   0       143
+25      251     950.8   0       251
+26      156     950.8   0       156
+27      210     950.8   0       210
+28      227     950.8   0       227
+29      153     950.8   0       153
+30      123     950.8   0       123
+31      165     950.8   0       165
+32      172     950.8   0       172
+33      180     950.8   0       180
+34      80      950.8   0       80
+35      196     950.8   0       196
+36      162     950.8   0       162
+37      186     950.8   0       186
+38      229     950.8   0       229
+39      155     950.8   0       155
+40      147     950.8   0       147
+41      144     950.8   0       144
+42      205     950.8   0       205
+43      145     950.8   0       145
+44      187     950.8   0       187
+45      309     950.8   0       309
+46      112     950.8   0       112
+47      160     950.8   0       160
+48      200     950.8   0       200
+49      177     950.8   0       177
+50      46      950.8   0       46
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CGCTGATA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/155691_TG12_K27me3_CB8LUANXX_CGCTGATA_all_trimmed.fq 155691_TG12_K27me3_CB8LUANXX_CGCTGATA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 223.61 s (4 us/read; 13.82 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              51,510,385
+Reads with adapters:                   173,085 (0.3%)
+Reads written (passing filters):    51,510,385 (100.0%)
+
+Total basepairs processed: 2,545,856,194 bp
+Total written (filtered):  2,545,179,087 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: CGCTGATA; Type: regular 3'; Length: 8; Trimmed: 173085 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 22.1%
+  G: 19.3%
+  T: 31.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       127020  804849.8        0       127020
+4       28975   201212.4        0       28975
+5       11871   50303.1 0       11871
+6       802     12575.8 0       802
+7       509     3143.9  0       509
+8       52      786.0   0       52
+9       77      786.0   0       77
+10      58      786.0   0       58
+11      73      786.0   0       73
+12      91      786.0   0       91
+13      100     786.0   0       100
+14      93      786.0   0       93
+15      100     786.0   0       100
+16      91      786.0   0       91
+17      118     786.0   0       118
+18      94      786.0   0       94
+19      103     786.0   0       103
+20      97      786.0   0       97
+21      96      786.0   0       96
+22      157     786.0   0       157
+23      115     786.0   0       115
+24      94      786.0   0       94
+25      75      786.0   0       75
+26      118     786.0   0       118
+27      68      786.0   0       68
+28      87      786.0   0       87
+29      89      786.0   0       89
+30      92      786.0   0       92
+31      108     786.0   0       108
+32      81      786.0   0       81
+33      101     786.0   0       101
+34      85      786.0   0       85
+35      88      786.0   0       88
+36      102     786.0   0       102
+37      110     786.0   0       110
+38      90      786.0   0       90
+39      93      786.0   0       93
+40      103     786.0   0       103
+41      88      786.0   0       88
+42      107     786.0   0       107
+43      80      786.0   0       80
+44      81      786.0   0       81
+45      80      786.0   0       80
+46      76      786.0   0       76
+47      66      786.0   0       66
+48      83      786.0   0       83
+49      87      786.0   0       87
+50      61      786.0   0       61
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a GATGGAGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/156508_WT12_K27me3_CB8LUANXX_GATGGAGT_all_trimmed.fq 156508_WT12_K27me3_CB8LUANXX_GATGGAGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 296.82 s (5 us/read; 12.46 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              61,655,917
+Reads with adapters:                 1,197,608 (1.9%)
+Reads written (passing filters):    61,655,917 (100.0%)
+
+Total basepairs processed: 3,047,709,883 bp
+Total written (filtered):  3,042,807,807 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGAGT; Type: regular 3'; Length: 8; Trimmed: 1197608 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 22.5%
+  C: 3.9%
+  G: 31.9%
+  T: 41.7%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       775106  963373.7        0       775106
+4       298687  240843.4        0       298687
+5       83665   60210.9 0       83665
+6       7154    15052.7 0       7154
+7       712     3763.2  0       712
+8       977     940.8   0       977
+9       874     940.8   0       874
+10      801     940.8   0       801
+11      756     940.8   0       756
+12      679     940.8   0       679
+13      701     940.8   0       701
+14      714     940.8   0       714
+15      729     940.8   0       729
+16      884     940.8   0       884
+17      763     940.8   0       763
+18      860     940.8   0       860
+19      736     940.8   0       736
+20      746     940.8   0       746
+21      704     940.8   0       704
+22      1008    940.8   0       1008
+23      725     940.8   0       725
+24      806     940.8   0       806
+25      748     940.8   0       748
+26      572     940.8   0       572
+27      791     940.8   0       791
+28      772     940.8   0       772
+29      776     940.8   0       776
+30      712     940.8   0       712
+31      795     940.8   0       795
+32      776     940.8   0       776
+33      723     940.8   0       723
+34      762     940.8   0       762
+35      768     940.8   0       768
+36      754     940.8   0       754
+37      774     940.8   0       774
+38      700     940.8   0       700
+39      769     940.8   0       769
+40      815     940.8   0       815
+41      664     940.8   0       664
+42      707     940.8   0       707
+43      675     940.8   0       675
+44      706     940.8   0       706
+45      664     940.8   0       664
+46      704     940.8   0       704
+47      673     940.8   0       673
+48      817     940.8   0       817
+49      725     940.8   0       725
+50      479     940.8   0       479
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CTAGCTCA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/156509_WT12_K27me3_CB8LUANXX_CTAGCTCA_all_trimmed.fq 156509_WT12_K27me3_CB8LUANXX_CTAGCTCA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 228.92 s (4 us/read; 14.07 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              53,690,196
+Reads with adapters:                   395,270 (0.7%)
+Reads written (passing filters):    53,690,196 (100.0%)
+
+Total basepairs processed: 2,653,719,630 bp
+Total written (filtered):  2,651,691,095 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTAGCTCA; Type: regular 3'; Length: 8; Trimmed: 395270 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 25.7%
+  G: 17.9%
+  T: 31.3%
+  none/other: 0.2%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       288953  838909.3        0       288953
+4       19467   209727.3        0       19467
+5       42765   52431.8 0       42765
+6       13883   13108.0 0       13883
+7       3893    3277.0  0       3893
+8       170     819.2   0       170
+9       523     819.2   0       523
+10      622     819.2   0       622
+11      621     819.2   0       621
+12      632     819.2   0       632
+13      643     819.2   0       643
+14      732     819.2   0       732
+15      650     819.2   0       650
+16      649     819.2   0       649
+17      619     819.2   0       619
+18      634     819.2   0       634
+19      598     819.2   0       598
+20      664     819.2   0       664
+21      635     819.2   0       635
+22      839     819.2   0       839
+23      631     819.2   0       631
+24      598     819.2   0       598
+25      649     819.2   0       649
+26      612     819.2   0       612
+27      632     819.2   0       632
+28      663     819.2   0       663
+29      585     819.2   0       585
+30      661     819.2   0       661
+31      650     819.2   0       650
+32      666     819.2   0       666
+33      637     819.2   0       637
+34      683     819.2   0       683
+35      602     819.2   0       602
+36      607     819.2   0       607
+37      642     819.2   0       642
+38      654     819.2   0       654
+39      686     819.2   0       686
+40      640     819.2   0       640
+41      576     819.2   0       576
+42      603     819.2   0       603
+43      596     819.2   0       596
+44      559     819.2   0       559
+45      628     819.2   0       628
+46      587     819.2   0       587
+47      577     819.2   0       577
+48      557     819.2   0       557
+49      524     819.2   0       524
+50      373     819.2   0       373
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CTGTACCA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/157306_WT12_K27me3_CB8LUANXX_CTGTACCA_all_trimmed.fq 157306_WT12_K27me3_CB8LUANXX_CTGTACCA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 236.05 s (5 us/read; 13.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              51,572,080
+Reads with adapters:                 1,815,735 (3.5%)
+Reads written (passing filters):    51,572,080 (100.0%)
+
+Total basepairs processed: 2,548,903,932 bp
+Total written (filtered):  2,542,094,783 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTACCA; Type: regular 3'; Length: 8; Trimmed: 1815735 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 31.3%
+  C: 22.0%
+  G: 17.5%
+  T: 29.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1347318 805813.8        0       1347318
+4       394460  201453.4        0       394460
+5       24152   50363.4 0       24152
+6       13395   12590.8 0       13395
+7       3285    3147.7  0       3285
+8       241     786.9   0       241
+9       594     786.9   0       594
+10      833     786.9   0       833
+11      743     786.9   0       743
+12      754     786.9   0       754
+13      923     786.9   0       923
+14      692     786.9   0       692
+15      787     786.9   0       787
+16      818     786.9   0       818
+17      912     786.9   0       912
+18      681     786.9   0       681
+19      721     786.9   0       721
+20      743     786.9   0       743
+21      841     786.9   0       841
+22      876     786.9   0       876
+23      794     786.9   0       794
+24      885     786.9   0       885
+25      760     786.9   0       760
+26      820     786.9   0       820
+27      882     786.9   0       882
+28      755     786.9   0       755
+29      849     786.9   0       849
+30      821     786.9   0       821
+31      779     786.9   0       779
+32      702     786.9   0       702
+33      804     786.9   0       804
+34      827     786.9   0       827
+35      830     786.9   0       830
+36      796     786.9   0       796
+37      823     786.9   0       823
+38      825     786.9   0       825
+39      902     786.9   0       902
+40      933     786.9   0       933
+41      748     786.9   0       748
+42      680     786.9   0       680
+43      792     786.9   0       792
+44      780     786.9   0       780
+45      833     786.9   0       833
+46      711     786.9   0       711
+47      707     786.9   0       707
+48      735     786.9   0       735
+49      678     786.9   0       678
+50      515     786.9   0       515
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TAGCTTCC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/157307_TG12_K27me3_CB8LUANXX_TAGCTTCC_all_trimmed.fq 157307_TG12_K27me3_CB8LUANXX_TAGCTTCC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 273.93 s (4 us/read; 13.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              61,684,574
+Reads with adapters:                   411,856 (0.7%)
+Reads written (passing filters):    61,684,574 (100.0%)
+
+Total basepairs processed: 3,048,514,345 bp
+Total written (filtered):  3,045,968,480 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: TAGCTTCC; Type: regular 3'; Length: 8; Trimmed: 411856 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 28.1%
+  C: 24.8%
+  G: 20.2%
+  T: 26.8%
+  none/other: 0.2%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       83423   963821.5        0       83423
+4       207370  240955.4        0       207370
+5       64919   60238.8 0       64919
+6       15432   15059.7 0       15432
+7       4569    3764.9  0       4569
+8       1194    941.2   0       1194
+9       794     941.2   0       794
+10      756     941.2   0       756
+11      835     941.2   0       835
+12      807     941.2   0       807
+13      802     941.2   0       802
+14      789     941.2   0       789
+15      780     941.2   0       780
+16      821     941.2   0       821
+17      806     941.2   0       806
+18      988     941.2   0       988
+19      856     941.2   0       856
+20      914     941.2   0       914
+21      1044    941.2   0       1044
+22      1892    941.2   0       1892
+23      852     941.2   0       852
+24      831     941.2   0       831
+25      803     941.2   0       803
+26      806     941.2   0       806
+27      837     941.2   0       837
+28      791     941.2   0       791
+29      777     941.2   0       777
+30      796     941.2   0       796
+31      765     941.2   0       765
+32      738     941.2   0       738
+33      854     941.2   0       854
+34      846     941.2   0       846
+35      816     941.2   0       816
+36      752     941.2   0       752
+37      867     941.2   0       867
+38      811     941.2   0       811
+39      830     941.2   0       830
+40      745     941.2   0       745
+41      767     941.2   0       767
+42      859     941.2   0       859
+43      849     941.2   0       849
+44      829     941.2   0       829
+45      727     941.2   0       727
+46      800     941.2   0       800
+47      800     941.2   0       800
+48      798     941.2   0       798
+49      651     941.2   0       651
+50      468     941.2   0       468
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CTGATGAG -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/158027_WT24_K27me3_CB8LUANXX_CTGATGAG_all_trimmed.fq 158027_WT24_K27me3_CB8LUANXX_CTGATGAG_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 235.61 s (4 us/read; 13.85 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              54,375,980
+Reads with adapters:                 1,728,133 (3.2%)
+Reads written (passing filters):    54,375,980 (100.0%)
+
+Total basepairs processed: 2,687,573,255 bp
+Total written (filtered):  2,681,048,019 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGATGAG; Type: regular 3'; Length: 8; Trimmed: 1728133 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 29.2%
+  C: 22.9%
+  G: 18.7%
+  T: 29.2%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1439049 849624.7        0       1439049
+4       150569  212406.2        0       150569
+5       76908   53101.5 0       76908
+6       21042   13275.4 0       21042
+7       1604    3318.8  0       1604
+8       201     829.7   0       201
+9       1248    829.7   0       1248
+10      863     829.7   0       863
+11      893     829.7   0       893
+12      785     829.7   0       785
+13      846     829.7   0       846
+14      914     829.7   0       914
+15      1307    829.7   0       1307
+16      757     829.7   0       757
+17      978     829.7   0       978
+18      1867    829.7   0       1867
+19      1247    829.7   0       1247
+20      1010    829.7   0       1010
+21      915     829.7   0       915
+22      1939    829.7   0       1939
+23      936     829.7   0       936
+24      866     829.7   0       866
+25      1257    829.7   0       1257
+26      1235    829.7   0       1235
+27      523     829.7   0       523
+28      593     829.7   0       593
+29      889     829.7   0       889
+30      805     829.7   0       805
+31      1068    829.7   0       1068
+32      876     829.7   0       876
+33      606     829.7   0       606
+34      983     829.7   0       983
+35      754     829.7   0       754
+36      700     829.7   0       700
+37      785     829.7   0       785
+38      931     829.7   0       931
+39      776     829.7   0       776
+40      920     829.7   0       920
+41      900     829.7   0       900
+42      984     829.7   0       984
+43      960     829.7   0       960
+44      642     829.7   0       642
+45      563     829.7   0       563
+46      787     829.7   0       787
+47      658     829.7   0       658
+48      832     829.7   0       832
+49      824     829.7   0       824
+50      538     829.7   0       538
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CTCGAACA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/158028_WT24_K27me3_CB8LUANXX_CTCGAACA_all_trimmed.fq 158028_WT24_K27me3_CB8LUANXX_CTCGAACA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 248.49 s (5 us/read; 13.00 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              53,843,633
+Reads with adapters:                 1,330,121 (2.5%)
+Reads written (passing filters):    53,843,633 (100.0%)
+
+Total basepairs processed: 2,661,290,484 bp
+Total written (filtered):  2,657,093,812 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTCGAACA; Type: regular 3'; Length: 8; Trimmed: 1330121 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 20.8%
+  C: 24.3%
+  G: 15.8%
+  T: 39.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1249673 841306.8        0       1249673
+4       69791   210326.7        0       69791
+5       3672    52581.7 0       3672
+6       1059    13145.4 0       1059
+7       1097    3286.4  0       1097
+8       34      821.6   0       34
+9       136     821.6   0       136
+10      103     821.6   0       103
+11      131     821.6   0       131
+12      118     821.6   0       118
+13      128     821.6   0       128
+14      73      821.6   0       73
+15      94      821.6   0       94
+16      82      821.6   0       82
+17      126     821.6   0       126
+18      167     821.6   0       167
+19      119     821.6   0       119
+20      162     821.6   0       162
+21      141     821.6   0       141
+22      263     821.6   0       263
+23      113     821.6   0       113
+24      105     821.6   0       105
+25      86      821.6   0       86
+26      92      821.6   0       92
+27      133     821.6   0       133
+28      104     821.6   0       104
+29      140     821.6   0       140
+30      129     821.6   0       129
+31      97      821.6   0       97
+32      114     821.6   0       114
+33      115     821.6   0       115
+34      115     821.6   0       115
+35      108     821.6   0       108
+36      107     821.6   0       107
+37      133     821.6   0       133
+38      126     821.6   0       126
+39      105     821.6   0       105
+40      91      821.6   0       91
+41      131     821.6   0       131
+42      91      821.6   0       91
+43      90      821.6   0       90
+44      107     821.6   0       107
+45      94      821.6   0       94
+46      86      821.6   0       86
+47      110     821.6   0       110
+48      78      821.6   0       78
+49      92      821.6   0       92
+50      60      821.6   0       60
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TCGACAAG -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/158029_WT24_K27me3_CB8LUANXX_TCGACAAG_all_trimmed.fq 158029_WT24_K27me3_CB8LUANXX_TCGACAAG_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 296.55 s (5 us/read; 13.20 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              65,248,141
+Reads with adapters:                   260,487 (0.4%)
+Reads written (passing filters):    65,248,141 (100.0%)
+
+Total basepairs processed: 3,225,181,984 bp
+Total written (filtered):  3,223,983,601 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: TCGACAAG; Type: regular 3'; Length: 8; Trimmed: 260487 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 15.8%
+  C: 34.0%
+  G: 19.2%
+  T: 30.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       219562  1019502.2       0       219562
+4       13587   254875.6        0       13587
+5       10449   63718.9 0       10449
+6       1453    15929.7 0       1453
+7       252     3982.4  0       252
+8       10      995.6   0       10
+9       219     995.6   0       219
+10      553     995.6   0       553
+11      218     995.6   0       218
+12      162     995.6   0       162
+13      372     995.6   0       372
+14      506     995.6   0       506
+15      309     995.6   0       309
+16      307     995.6   0       307
+17      282     995.6   0       282
+18      222     995.6   0       222
+19      397     995.6   0       397
+20      670     995.6   0       670
+21      383     995.6   0       383
+22      1648    995.6   0       1648
+23      407     995.6   0       407
+24      774     995.6   0       774
+25      193     995.6   0       193
+26      136     995.6   0       136
+27      346     995.6   0       346
+28      318     995.6   0       318
+29      474     995.6   0       474
+30      885     995.6   0       885
+31      132     995.6   0       132
+32      168     995.6   0       168
+33      189     995.6   0       189
+34      561     995.6   0       561
+35      157     995.6   0       157
+36      220     995.6   0       220
+37      89      995.6   0       89
+38      584     995.6   0       584
+39      144     995.6   0       144
+40      161     995.6   0       161
+41      548     995.6   0       548
+42      127     995.6   0       127
+43      297     995.6   0       297
+44      313     995.6   0       313
+45      279     995.6   0       279
+46      389     995.6   0       389
+47      400     995.6   0       400
+48      314     995.6   0       314
+49      91      995.6   0       91
+50      230     995.6   0       230
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a GTCTCATC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/163734_WT6_K27me3_CB8LUANXX_GTCTCATC_all_trimmed.fq 163734_WT6_K27me3_CB8LUANXX_GTCTCATC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 222.47 s (4 us/read; 14.25 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              52,836,469
+Reads with adapters:                 1,143,346 (2.2%)
+Reads written (passing filters):    52,836,469 (100.0%)
+
+Total basepairs processed: 2,611,636,857 bp
+Total written (filtered):  2,607,220,935 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: GTCTCATC; Type: regular 3'; Length: 8; Trimmed: 1143346 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 29.0%
+  C: 12.1%
+  G: 20.7%
+  T: 38.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       821773  825569.8        0       821773
+4       223651  206392.5        0       223651
+5       65380   51598.1 0       65380
+6       4805    12899.5 0       4805
+7       3876    3224.9  0       3876
+8       842     806.2   0       842
+9       502     806.2   0       502
+10      594     806.2   0       594
+11      555     806.2   0       555
+12      568     806.2   0       568
+13      585     806.2   0       585
+14      511     806.2   0       511
+15      538     806.2   0       538
+16      537     806.2   0       537
+17      595     806.2   0       595
+18      560     806.2   0       560
+19      538     806.2   0       538
+20      586     806.2   0       586
+21      625     806.2   0       625
+22      833     806.2   0       833
+23      570     806.2   0       570
+24      499     806.2   0       499
+25      489     806.2   0       489
+26      553     806.2   0       553
+27      537     806.2   0       537
+28      525     806.2   0       525
+29      568     806.2   0       568
+30      637     806.2   0       637
+31      563     806.2   0       563
+32      560     806.2   0       560
+33      581     806.2   0       581
+34      509     806.2   0       509
+35      591     806.2   0       591
+36      539     806.2   0       539
+37      594     806.2   0       594
+38      535     806.2   0       535
+39      503     806.2   0       503
+40      520     806.2   0       520
+41      573     806.2   0       573
+42      505     806.2   0       505
+43      455     806.2   0       455
+44      624     806.2   0       624
+45      582     806.2   0       582
+46      527     806.2   0       527
+47      514     806.2   0       514
+48      473     806.2   0       473
+49      441     806.2   0       441
+50      325     806.2   0       325
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a ACCAAGCA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/163736_WT6_K27me3_CB8LUANXX_ACCAAGCA_all_trimmed.fq 163736_WT6_K27me3_CB8LUANXX_ACCAAGCA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 335.57 s (5 us/read; 12.33 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              68,944,019
+Reads with adapters:                 1,349,514 (2.0%)
+Reads written (passing filters):    68,944,019 (100.0%)
+
+Total basepairs processed: 3,407,654,806 bp
+Total written (filtered):  3,401,835,892 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: ACCAAGCA; Type: regular 3'; Length: 8; Trimmed: 1349514 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 28.9%
+  C: 30.0%
+  G: 20.8%
+  T: 20.2%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1141305 1077250.3       0       1141305
+4       102029  269312.6        0       102029
+5       35166   67328.1 0       35166
+6       1770    16832.0 0       1770
+7       5294    4208.0  0       5294
+8       653     1052.0  0       653
+9       1014    1052.0  0       1014
+10      1170    1052.0  0       1170
+11      1337    1052.0  0       1337
+12      1320    1052.0  0       1320
+13      1295    1052.0  0       1295
+14      1436    1052.0  0       1436
+15      1331    1052.0  0       1331
+16      1252    1052.0  0       1252
+17      1467    1052.0  0       1467
+18      1831    1052.0  0       1831
+19      1559    1052.0  0       1559
+20      2144    1052.0  0       2144
+21      2649    1052.0  0       2649
+22      8924    1052.0  0       8924
+23      1375    1052.0  0       1375
+24      1258    1052.0  0       1258
+25      1445    1052.0  0       1445
+26      1209    1052.0  0       1209
+27      1288    1052.0  0       1288
+28      1399    1052.0  0       1399
+29      1156    1052.0  0       1156
+30      1198    1052.0  0       1198
+31      1316    1052.0  0       1316
+32      1120    1052.0  0       1120
+33      1153    1052.0  0       1153
+34      1362    1052.0  0       1362
+35      1215    1052.0  0       1215
+36      1246    1052.0  0       1246
+37      1306    1052.0  0       1306
+38      1321    1052.0  0       1321
+39      1240    1052.0  0       1240
+40      1298    1052.0  0       1298
+41      1164    1052.0  0       1164
+42      1254    1052.0  0       1254
+43      1318    1052.0  0       1318
+44      1332    1052.0  0       1332
+45      1222    1052.0  0       1222
+46      1192    1052.0  0       1192
+47      1227    1052.0  0       1227
+48      1101    1052.0  0       1101
+49      1138    1052.0  0       1138
+50      715     1052.0  0       715
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGTCAGGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/17_WT6_K27me3_CB8LUANXX_AGTCAGGT_all_trimmed.fq 17_WT6_K27me3_CB8LUANXX_AGTCAGGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 249.81 s (5 us/read; 11.76 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              48,947,685
+Reads with adapters:                 1,334,450 (2.7%)
+Reads written (passing filters):    48,947,685 (100.0%)
+
+Total basepairs processed: 2,419,387,436 bp
+Total written (filtered):  2,414,267,773 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGTCAGGT; Type: regular 3'; Length: 8; Trimmed: 1334450 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 30.7%
+  C: 30.1%
+  G: 20.1%
+  T: 19.0%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1044627 764807.6        0       1044627
+4       231996  191201.9        0       231996
+5       17353   47800.5 0       17353
+6       2117    11950.1 0       2117
+7       5751    2987.5  0       5751
+8       1016    746.9   0       1016
+9       901     746.9   0       901
+10      803     746.9   0       803
+11      750     746.9   0       750
+12      747     746.9   0       747
+13      777     746.9   0       777
+14      763     746.9   0       763
+15      724     746.9   0       724
+16      733     746.9   0       733
+17      844     746.9   0       844
+18      846     746.9   0       846
+19      772     746.9   0       772
+20      773     746.9   0       773
+21      805     746.9   0       805
+22      879     746.9   0       879
+23      751     746.9   0       751
+24      840     746.9   0       840
+25      798     746.9   0       798
+26      762     746.9   0       762
+27      717     746.9   0       717
+28      775     746.9   0       775
+29      819     746.9   0       819
+30      781     746.9   0       781
+31      711     746.9   0       711
+32      699     746.9   0       699
+33      697     746.9   0       697
+34      741     746.9   0       741
+35      724     746.9   0       724
+36      750     746.9   0       750
+37      770     746.9   0       770
+38      775     746.9   0       775
+39      715     746.9   0       715
+40      821     746.9   0       821
+41      748     746.9   0       748
+42      802     746.9   0       802
+43      762     746.9   0       762
+44      709     746.9   0       709
+45      721     746.9   0       721
+46      679     746.9   0       679
+47      719     746.9   0       719
+48      658     746.9   0       658
+49      589     746.9   0       589
+50      440     746.9   0       440
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TATCGCGA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/18_WT6_K27me3_CB8LUANXX_TATCGCGA_all_trimmed.fq 18_WT6_K27me3_CB8LUANXX_TATCGCGA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 245.27 s (4 us/read; 13.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              54,705,718
+Reads with adapters:                 1,665,282 (3.0%)
+Reads written (passing filters):    54,705,718 (100.0%)
+
+Total basepairs processed: 2,703,926,162 bp
+Total written (filtered):  2,698,586,404 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: TATCGCGA; Type: regular 3'; Length: 8; Trimmed: 1665282 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 36.2%
+  C: 18.9%
+  G: 17.2%
+  T: 27.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1402911 854776.8        0       1402911
+4       251185  213694.2        0       251185
+5       6743    53423.6 0       6743
+6       1297    13355.9 0       1297
+7       217     3339.0  0       217
+8       4       834.7   0       4
+9       4       834.7   0       4
+10      86      834.7   0       86
+11      49      834.7   0       49
+12      54      834.7   0       54
+13      28      834.7   0       28
+14      60      834.7   0       60
+15      48      834.7   0       48
+16      72      834.7   0       72
+17      97      834.7   0       97
+18      134     834.7   0       134
+19      84      834.7   0       84
+20      100     834.7   0       100
+21      148     834.7   0       148
+22      271     834.7   0       271
+23      17      834.7   0       17
+24      53      834.7   0       53
+25      54      834.7   0       54
+26      81      834.7   0       81
+27      91      834.7   0       91
+28      58      834.7   0       58
+29      55      834.7   0       55
+30      58      834.7   0       58
+31      86      834.7   0       86
+32      132     834.7   0       132
+33      42      834.7   0       42
+34      117     834.7   0       117
+35      34      834.7   0       34
+36      33      834.7   0       33
+37      30      834.7   0       30
+38      60      834.7   0       60
+39      21      834.7   0       21
+40      68      834.7   0       68
+41      36      834.7   0       36
+42      65      834.7   0       65
+43      35      834.7   0       35
+44      122     834.7   0       122
+45      42      834.7   0       42
+46      63      834.7   0       63
+47      115     834.7   0       115
+48      33      834.7   0       33
+49      51      834.7   0       51
+50      38      834.7   0       38
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TGAGCTGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/315_TG6_K27me3_CB8LUANXX_TGAGCTGT_all_trimmed.fq 315_TG6_K27me3_CB8LUANXX_TGAGCTGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 262.27 s (5 us/read; 12.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              55,696,792
+Reads with adapters:                   688,050 (1.2%)
+Reads written (passing filters):    55,696,792 (100.0%)
+
+Total basepairs processed: 2,752,946,263 bp
+Total written (filtered):  2,749,293,251 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: TGAGCTGT; Type: regular 3'; Length: 8; Trimmed: 688050 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 24.7%
+  C: 32.2%
+  G: 20.0%
+  T: 22.9%
+  none/other: 0.2%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       507813  870262.4        0       507813
+4       28221   217565.6        0       28221
+5       72605   54391.4 0       72605
+6       20741   13597.8 0       20741
+7       6307    3399.5  0       6307
+8       1579    849.9   0       1579
+9       1423    849.9   0       1423
+10      1233    849.9   0       1233
+11      1240    849.9   0       1240
+12      1296    849.9   0       1296
+13      1182    849.9   0       1182
+14      1329    849.9   0       1329
+15      1156    849.9   0       1156
+16      1178    849.9   0       1178
+17      1235    849.9   0       1235
+18      1191    849.9   0       1191
+19      1252    849.9   0       1252
+20      1280    849.9   0       1280
+21      1269    849.9   0       1269
+22      1348    849.9   0       1348
+23      1176    849.9   0       1176
+24      1235    849.9   0       1235
+25      1236    849.9   0       1236
+26      1286    849.9   0       1286
+27      1217    849.9   0       1217
+28      1199    849.9   0       1199
+29      1178    849.9   0       1178
+30      1226    849.9   0       1226
+31      1230    849.9   0       1230
+32      1233    849.9   0       1233
+33      1270    849.9   0       1270
+34      1131    849.9   0       1131
+35      1203    849.9   0       1203
+36      1207    849.9   0       1207
+37      1175    849.9   0       1175
+38      1199    849.9   0       1199
+39      1245    849.9   0       1245
+40      1232    849.9   0       1232
+41      1208    849.9   0       1208
+42      1149    849.9   0       1149
+43      1278    849.9   0       1278
+44      1174    849.9   0       1174
+45      1179    849.9   0       1179
+46      1227    849.9   0       1227
+47      1183    849.9   0       1183
+48      1091    849.9   0       1091
+49      1066    849.9   0       1066
+50      739     849.9   0       739
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CAGAGTGA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/316_TG6_K27me3_CB8LUANXX_CAGAGTGA_all_trimmed.fq 316_TG6_K27me3_CB8LUANXX_CAGAGTGA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 257.56 s (5 us/read; 12.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              54,569,574
+Reads with adapters:                   418,958 (0.8%)
+Reads written (passing filters):    54,569,574 (100.0%)
+
+Total basepairs processed: 2,697,023,466 bp
+Total written (filtered):  2,693,262,734 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CAGAGTGA; Type: regular 3'; Length: 8; Trimmed: 418958 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 35.9%
+  C: 21.9%
+  G: 18.3%
+  T: 23.3%
+  none/other: 0.5%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       140458  852649.6        0       140458
+4       147212  213162.4        0       147212
+5       13669   53290.6 0       13669
+6       22480   13322.6 0       22480
+7       8909    3330.7  0       8909
+8       639     832.7   0       639
+9       1272    832.7   0       1272
+10      1686    832.7   0       1686
+11      1863    832.7   0       1863
+12      1966    832.7   0       1966
+13      3555    832.7   0       3555
+14      1469    832.7   0       1469
+15      1485    832.7   0       1485
+16      2939    832.7   0       2939
+17      1453    832.7   0       1453
+18      3487    832.7   0       3487
+19      1460    832.7   0       1460
+20      1368    832.7   0       1368
+21      2582    832.7   0       2582
+22      3877    832.7   0       3877
+23      1439    832.7   0       1439
+24      1434    832.7   0       1434
+25      2090    832.7   0       2090
+26      1969    832.7   0       1969
+27      2124    832.7   0       2124
+28      2883    832.7   0       2883
+29      1632    832.7   0       1632
+30      2970    832.7   0       2970
+31      1419    832.7   0       1419
+32      3616    832.7   0       3616
+33      1648    832.7   0       1648
+34      2800    832.7   0       2800
+35      1493    832.7   0       1493
+36      1410    832.7   0       1410
+37      2209    832.7   0       2209
+38      2107    832.7   0       2107
+39      1585    832.7   0       1585
+40      1858    832.7   0       1858
+41      2028    832.7   0       2028
+42      2018    832.7   0       2018
+43      2065    832.7   0       2065
+44      1953    832.7   0       1953
+45      1820    832.7   0       1820
+46      1781    832.7   0       1781
+47      1989    832.7   0       1989
+48      2044    832.7   0       2044
+49      1739    832.7   0       1739
+50      1006    832.7   0       1006
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a TAGCAGGA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/325_WT6_K27me3_CB8LUANXX_TAGCAGGA_all_trimmed.fq 325_WT6_K27me3_CB8LUANXX_TAGCAGGA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 262.90 s (5 us/read; 12.81 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              56,142,457
+Reads with adapters:                   347,165 (0.6%)
+Reads written (passing filters):    56,142,457 (100.0%)
+
+Total basepairs processed: 2,774,930,673 bp
+Total written (filtered):  2,772,745,968 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: TAGCAGGA; Type: regular 3'; Length: 8; Trimmed: 347165 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 28.5%
+  C: 24.6%
+  G: 20.6%
+  T: 26.1%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       79692   877225.9        0       79692
+4       207151  219306.5        0       207151
+5       20807   54826.6 0       20807
+6       1789    13706.7 0       1789
+7       3507    3426.7  0       3507
+8       510     856.7   0       510
+9       641     856.7   0       641
+10      726     856.7   0       726
+11      779     856.7   0       779
+12      704     856.7   0       704
+13      823     856.7   0       823
+14      749     856.7   0       749
+15      936     856.7   0       936
+16      712     856.7   0       712
+17      685     856.7   0       685
+18      1008    856.7   0       1008
+19      840     856.7   0       840
+20      837     856.7   0       837
+21      1043    856.7   0       1043
+22      1664    856.7   0       1664
+23      695     856.7   0       695
+24      893     856.7   0       893
+25      814     856.7   0       814
+26      741     856.7   0       741
+27      794     856.7   0       794
+28      732     856.7   0       732
+29      899     856.7   0       899
+30      822     856.7   0       822
+31      910     856.7   0       910
+32      757     856.7   0       757
+33      779     856.7   0       779
+34      740     856.7   0       740
+35      701     856.7   0       701
+36      800     856.7   0       800
+37      719     856.7   0       719
+38      776     856.7   0       776
+39      734     856.7   0       734
+40      1009    856.7   0       1009
+41      893     856.7   0       893
+42      896     856.7   0       896
+43      977     856.7   0       977
+44      770     856.7   0       770
+45      777     856.7   0       777
+46      855     856.7   0       855
+47      668     856.7   0       668
+48      683     856.7   0       683
+49      458     856.7   0       458
+50      270     856.7   0       270
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGAAGGAC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/326_TG6_K27me3_CB8LUANXX_AGAAGGAC_all_trimmed.fq 326_TG6_K27me3_CB8LUANXX_AGAAGGAC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 266.57 s (5 us/read; 13.00 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              57,745,778
+Reads with adapters:                 1,113,077 (1.9%)
+Reads written (passing filters):    57,745,778 (100.0%)
+
+Total basepairs processed: 2,854,237,962 bp
+Total written (filtered):  2,848,561,361 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGAAGGAC; Type: regular 3'; Length: 8; Trimmed: 1113077 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 33.2%
+  C: 21.6%
+  G: 28.2%
+  T: 16.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       661876  902277.8        0       661876
+4       315699  225569.4        0       315699
+5       15296   56392.4 0       15296
+6       38185   14098.1 0       38185
+7       6116    3524.5  0       6116
+8       2796    881.1   0       2796
+9       1334    881.1   0       1334
+10      2677    881.1   0       2677
+11      1562    881.1   0       1562
+12      1618    881.1   0       1618
+13      1414    881.1   0       1414
+14      1730    881.1   0       1730
+15      1643    881.1   0       1643
+16      1452    881.1   0       1452
+17      1810    881.1   0       1810
+18      1937    881.1   0       1937
+19      2113    881.1   0       2113
+20      2377    881.1   0       2377
+21      2303    881.1   0       2303
+22      4374    881.1   0       4374
+23      1848    881.1   0       1848
+24      1973    881.1   0       1973
+25      2250    881.1   0       2250
+26      2015    881.1   0       2015
+27      1217    881.1   0       1217
+28      2400    881.1   0       2400
+29      1265    881.1   0       1265
+30      1472    881.1   0       1472
+31      2398    881.1   0       2398
+32      1190    881.1   0       1190
+33      1418    881.1   0       1418
+34      1750    881.1   0       1750
+35      1274    881.1   0       1274
+36      2124    881.1   0       2124
+37      1575    881.1   0       1575
+38      992     881.1   0       992
+39      1442    881.1   0       1442
+40      1590    881.1   0       1590
+41      1718    881.1   0       1718
+42      1517    881.1   0       1517
+43      1627    881.1   0       1627
+44      1335    881.1   0       1335
+45      1237    881.1   0       1237
+46      2229    881.1   0       2229
+47      1364    881.1   0       1364
+48      1152    881.1   0       1152
+49      1441    881.1   0       1441
+50      952     881.1   0       952
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGGTTCCT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/344_TG6_K27me3_CB8LUANXX_AGGTTCCT_all_trimmed.fq 344_TG6_K27me3_CB8LUANXX_AGGTTCCT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 260.61 s (5 us/read; 12.70 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              55,160,047
+Reads with adapters:                 1,898,324 (3.4%)
+Reads written (passing filters):    55,160,047 (100.0%)
+
+Total basepairs processed: 2,726,397,352 bp
+Total written (filtered):  2,718,931,848 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGGTTCCT; Type: regular 3'; Length: 8; Trimmed: 1898324 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 28.1%
+  C: 29.3%
+  G: 24.6%
+  T: 17.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1478044 861875.7        0       1478044
+4       283390  215468.9        0       283390
+5       63310   53867.2 0       63310
+6       17843   13466.8 0       17843
+7       4603    3366.7  0       4603
+8       1498    841.7   0       1498
+9       1401    841.7   0       1401
+10      1166    841.7   0       1166
+11      1217    841.7   0       1217
+12      1213    841.7   0       1213
+13      1112    841.7   0       1112
+14      1212    841.7   0       1212
+15      1122    841.7   0       1122
+16      1169    841.7   0       1169
+17      1282    841.7   0       1282
+18      1363    841.7   0       1363
+19      1133    841.7   0       1133
+20      1242    841.7   0       1242
+21      1389    841.7   0       1389
+22      1583    841.7   0       1583
+23      1405    841.7   0       1405
+24      1191    841.7   0       1191
+25      1080    841.7   0       1080
+26      1254    841.7   0       1254
+27      1166    841.7   0       1166
+28      1212    841.7   0       1212
+29      1157    841.7   0       1157
+30      1127    841.7   0       1127
+31      1242    841.7   0       1242
+32      1162    841.7   0       1162
+33      1213    841.7   0       1213
+34      1151    841.7   0       1151
+35      1206    841.7   0       1206
+36      1004    841.7   0       1004
+37      1193    841.7   0       1193
+38      1081    841.7   0       1081
+39      1224    841.7   0       1224
+40      1262    841.7   0       1262
+41      1134    841.7   0       1134
+42      1070    841.7   0       1070
+43      1136    841.7   0       1136
+44      1145    841.7   0       1145
+45      1117    841.7   0       1117
+46      1236    841.7   0       1236
+47      1241    841.7   0       1241
+48      1062    841.7   0       1062
+49      919     841.7   0       919
+50      642     841.7   0       642
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGACCTTG -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/346_TG6_K27me3_CB8LUANXX_AGACCTTG_all_trimmed.fq 346_TG6_K27me3_CB8LUANXX_AGACCTTG_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 223.73 s (4 us/read; 13.61 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              50,747,435
+Reads with adapters:                 1,012,606 (2.0%)
+Reads written (passing filters):    50,747,435 (100.0%)
+
+Total basepairs processed: 2,508,334,750 bp
+Total written (filtered):  2,503,831,398 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGACCTTG; Type: regular 3'; Length: 8; Trimmed: 1012606 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 31.2%
+  C: 24.2%
+  G: 26.7%
+  T: 17.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       585914  792928.7        0       585914
+4       308169  198232.2        0       308169
+5       60149   49558.0 0       60149
+6       15145   12389.5 0       15145
+7       4398    3097.4  0       4398
+8       1225    774.3   0       1225
+9       1041    774.3   0       1041
+10      921     774.3   0       921
+11      794     774.3   0       794
+12      1095    774.3   0       1095
+13      870     774.3   0       870
+14      928     774.3   0       928
+15      1018    774.3   0       1018
+16      912     774.3   0       912
+17      978     774.3   0       978
+18      836     774.3   0       836
+19      931     774.3   0       931
+20      1008    774.3   0       1008
+21      1048    774.3   0       1048
+22      1283    774.3   0       1283
+23      840     774.3   0       840
+24      859     774.3   0       859
+25      871     774.3   0       871
+26      866     774.3   0       866
+27      848     774.3   0       848
+28      870     774.3   0       870
+29      833     774.3   0       833
+30      968     774.3   0       968
+31      818     774.3   0       818
+32      953     774.3   0       953
+33      866     774.3   0       866
+34      884     774.3   0       884
+35      912     774.3   0       912
+36      856     774.3   0       856
+37      843     774.3   0       843
+38      852     774.3   0       852
+39      830     774.3   0       830
+40      944     774.3   0       944
+41      930     774.3   0       930
+42      964     774.3   0       964
+43      862     774.3   0       862
+44      923     774.3   0       923
+45      877     774.3   0       877
+46      994     774.3   0       994
+47      907     774.3   0       907
+48      672     774.3   0       672
+49      662     774.3   0       662
+50      439     774.3   0       439
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a GGATTCAC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/363_WT3_K27me3_CB8LUANXX_GGATTCAC_all_trimmed.fq 363_WT3_K27me3_CB8LUANXX_GGATTCAC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 220.06 s (4 us/read; 13.42 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              49,236,084
+Reads with adapters:                   715,603 (1.5%)
+Reads written (passing filters):    49,236,084 (100.0%)
+
+Total basepairs processed: 2,433,508,421 bp
+Total written (filtered):  2,430,509,853 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: GGATTCAC; Type: regular 3'; Length: 8; Trimmed: 715603 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 34.4%
+  C: 4.6%
+  G: 23.8%
+  T: 37.1%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       414363  769313.8        0       414363
+4       213887  192328.5        0       213887
+5       54597   48082.1 0       54597
+6       12289   12020.5 0       12289
+7       971     3005.1  0       971
+8       802     751.3   0       802
+9       398     751.3   0       398
+10      440     751.3   0       440
+11      443     751.3   0       443
+12      439     751.3   0       439
+13      482     751.3   0       482
+14      382     751.3   0       382
+15      460     751.3   0       460
+16      483     751.3   0       483
+17      423     751.3   0       423
+18      531     751.3   0       531
+19      482     751.3   0       482
+20      495     751.3   0       495
+21      422     751.3   0       422
+22      743     751.3   0       743
+23      440     751.3   0       440
+24      432     751.3   0       432
+25      516     751.3   0       516
+26      479     751.3   0       479
+27      423     751.3   0       423
+28      428     751.3   0       428
+29      436     751.3   0       436
+30      519     751.3   0       519
+31      430     751.3   0       430
+32      414     751.3   0       414
+33      514     751.3   0       514
+34      428     751.3   0       428
+35      483     751.3   0       483
+36      433     751.3   0       433
+37      423     751.3   0       423
+38      527     751.3   0       527
+39      364     751.3   0       364
+40      401     751.3   0       401
+41      403     751.3   0       403
+42      367     751.3   0       367
+43      366     751.3   0       366
+44      436     751.3   0       436
+45      482     751.3   0       482
+46      458     751.3   0       458
+47      390     751.3   0       390
+48      427     751.3   0       427
+49      383     751.3   0       383
+50      269     751.3   0       269
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CAAGAAGC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/364_TG3_K27me3_CB8LUANXX_CAAGAAGC_all_trimmed.fq 364_TG3_K27me3_CB8LUANXX_CAAGAAGC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 221.98 s (4 us/read; 13.73 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              50,812,702
+Reads with adapters:                   549,133 (1.1%)
+Reads written (passing filters):    50,812,702 (100.0%)
+
+Total basepairs processed: 2,511,526,676 bp
+Total written (filtered):  2,508,079,062 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CAAGAAGC; Type: regular 3'; Length: 8; Trimmed: 549133 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 32.9%
+  C: 21.1%
+  G: 22.6%
+  T: 23.1%
+  none/other: 0.3%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       387243  793948.5        0       387243
+4       20553   198487.1        0       20553
+5       48296   49621.8 0       48296
+6       30217   12405.4 0       30217
+7       587     3101.4  0       587
+8       2004    775.3   0       2004
+9       1540    775.3   0       1540
+10      1370    775.3   0       1370
+11      993     775.3   0       993
+12      2126    775.3   0       2126
+13      1025    775.3   0       1025
+14      1016    775.3   0       1016
+15      1437    775.3   0       1437
+16      1188    775.3   0       1188
+17      1691    775.3   0       1691
+18      1393    775.3   0       1393
+19      1324    775.3   0       1324
+20      2067    775.3   0       2067
+21      1610    775.3   0       1610
+22      2663    775.3   0       2663
+23      928     775.3   0       928
+24      2171    775.3   0       2171
+25      1107    775.3   0       1107
+26      1162    775.3   0       1162
+27      1093    775.3   0       1093
+28      1347    775.3   0       1347
+29      1449    775.3   0       1449
+30      1215    775.3   0       1215
+31      1521    775.3   0       1521
+32      1127    775.3   0       1127
+33      1498    775.3   0       1498
+34      2136    775.3   0       2136
+35      1098    775.3   0       1098
+36      1231    775.3   0       1231
+37      1648    775.3   0       1648
+38      1601    775.3   0       1601
+39      1979    775.3   0       1979
+40      1239    775.3   0       1239
+41      1088    775.3   0       1088
+42      1478    775.3   0       1478
+43      1459    775.3   0       1459
+44      1080    775.3   0       1080
+45      1327    775.3   0       1327
+46      1444    775.3   0       1444
+47      1537    775.3   0       1537
+48      1573    775.3   0       1573
+49      1200    775.3   0       1200
+50      1054    775.3   0       1054
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CACGATTC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/368_WT3_K27me3_CB8LUANXX_CACGATTC_all_trimmed.fq 368_WT3_K27me3_CB8LUANXX_CACGATTC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 222.74 s (4 us/read; 14.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              53,135,992
+Reads with adapters:                 1,556,855 (2.9%)
+Reads written (passing filters):    53,135,992 (100.0%)
+
+Total basepairs processed: 2,626,397,230 bp
+Total written (filtered):  2,621,480,168 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CACGATTC; Type: regular 3'; Length: 8; Trimmed: 1556855 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 34.9%
+  C: 23.3%
+  G: 16.0%
+  T: 25.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1454451 830249.9        0       1454451
+4       89861   207562.5        0       89861
+5       3511    51890.6 0       3511
+6       2820    12972.7 0       2820
+7       642     3243.2  0       642
+8       169     810.8   0       169
+9       123     810.8   0       123
+10      136     810.8   0       136
+11      94      810.8   0       94
+12      116     810.8   0       116
+13      129     810.8   0       129
+14      112     810.8   0       112
+15      124     810.8   0       124
+16      115     810.8   0       115
+17      105     810.8   0       105
+18      165     810.8   0       165
+19      130     810.8   0       130
+20      148     810.8   0       148
+21      171     810.8   0       171
+22      504     810.8   0       504
+23      138     810.8   0       138
+24      132     810.8   0       132
+25      110     810.8   0       110
+26      126     810.8   0       126
+27      97      810.8   0       97
+28      108     810.8   0       108
+29      108     810.8   0       108
+30      133     810.8   0       133
+31      106     810.8   0       106
+32      111     810.8   0       111
+33      110     810.8   0       110
+34      104     810.8   0       104
+35      110     810.8   0       110
+36      113     810.8   0       113
+37      140     810.8   0       140
+38      97      810.8   0       97
+39      124     810.8   0       124
+40      111     810.8   0       111
+41      125     810.8   0       125
+42      117     810.8   0       117
+43      129     810.8   0       129
+44      142     810.8   0       142
+45      109     810.8   0       109
+46      113     810.8   0       113
+47      115     810.8   0       115
+48      118     810.8   0       118
+49      111     810.8   0       111
+50      72      810.8   0       72
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CATGGATC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/374_TG3_K27me3_CB8LUANXX_CATGGATC_all_trimmed.fq 374_TG3_K27me3_CB8LUANXX_CATGGATC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 219.47 s (4 us/read; 13.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              50,635,719
+Reads with adapters:                 1,918,466 (3.8%)
+Reads written (passing filters):    50,635,719 (100.0%)
+
+Total basepairs processed: 2,502,995,341 bp
+Total written (filtered):  2,496,013,299 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CATGGATC; Type: regular 3'; Length: 8; Trimmed: 1918466 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 27.2%
+  C: 27.3%
+  G: 14.0%
+  T: 31.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1387497 791183.1        0       1387497
+4       339419  197795.8        0       339419
+5       129965  49448.9 0       129965
+6       38257   12362.2 0       38257
+7       3938    3090.6  0       3938
+8       565     772.6   0       565
+9       452     772.6   0       452
+10      422     772.6   0       422
+11      466     772.6   0       466
+12      404     772.6   0       404
+13      437     772.6   0       437
+14      424     772.6   0       424
+15      451     772.6   0       451
+16      383     772.6   0       383
+17      513     772.6   0       513
+18      472     772.6   0       472
+19      453     772.6   0       453
+20      490     772.6   0       490
+21      461     772.6   0       461
+22      817     772.6   0       817
+23      415     772.6   0       415
+24      424     772.6   0       424
+25      467     772.6   0       467
+26      418     772.6   0       418
+27      408     772.6   0       408
+28      428     772.6   0       428
+29      428     772.6   0       428
+30      426     772.6   0       426
+31      476     772.6   0       476
+32      476     772.6   0       476
+33      437     772.6   0       437
+34      406     772.6   0       406
+35      435     772.6   0       435
+36      387     772.6   0       387
+37      439     772.6   0       439
+38      472     772.6   0       472
+39      423     772.6   0       423
+40      486     772.6   0       486
+41      399     772.6   0       399
+42      419     772.6   0       419
+43      454     772.6   0       454
+44      527     772.6   0       527
+45      448     772.6   0       448
+46      431     772.6   0       431
+47      468     772.6   0       468
+48      469     772.6   0       469
+49      432     772.6   0       432
+50      282     772.6   0       282
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CTTCCTTC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/512_WT3_K27me3_CB8LUANXX_CTTCCTTC_all_trimmed.fq 512_WT3_K27me3_CB8LUANXX_CTTCCTTC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 227.72 s (4 us/read; 13.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              52,516,454
+Reads with adapters:                 1,897,447 (3.6%)
+Reads written (passing filters):    52,516,454 (100.0%)
+
+Total basepairs processed: 2,594,142,272 bp
+Total written (filtered):  2,584,248,366 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: CTTCCTTC; Type: regular 3'; Length: 8; Trimmed: 1897447 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 23.5%
+  C: 25.2%
+  G: 17.6%
+  T: 33.6%
+  none/other: 0.2%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1254013 820569.6        0       1254013
+4       368672  205142.4        0       368672
+5       98547   51285.6 0       98547
+6       32474   12821.4 0       32474
+7       10668   3205.3  0       10668
+8       3553    801.3   0       3553
+9       3122    801.3   0       3122
+10      2579    801.3   0       2579
+11      2875    801.3   0       2875
+12      3564    801.3   0       3564
+13      2709    801.3   0       2709
+14      3567    801.3   0       3567
+15      2454    801.3   0       2454
+16      2777    801.3   0       2777
+17      2708    801.3   0       2708
+18      3403    801.3   0       3403
+19      2977    801.3   0       2977
+20      3077    801.3   0       3077
+21      2912    801.3   0       2912
+22      4587    801.3   0       4587
+23      2802    801.3   0       2802
+24      3133    801.3   0       3133
+25      2970    801.3   0       2970
+26      2726    801.3   0       2726
+27      2610    801.3   0       2610
+28      3710    801.3   0       3710
+29      2989    801.3   0       2989
+30      3038    801.3   0       3038
+31      2553    801.3   0       2553
+32      2423    801.3   0       2423
+33      3029    801.3   0       3029
+34      3145    801.3   0       3145
+35      3462    801.3   0       3462
+36      2543    801.3   0       2543
+37      2572    801.3   0       2572
+38      3137    801.3   0       3137
+39      2627    801.3   0       2627
+40      3302    801.3   0       3302
+41      3331    801.3   0       3331
+42      3043    801.3   0       3043
+43      3254    801.3   0       3254
+44      2947    801.3   0       2947
+45      3093    801.3   0       3093
+46      3387    801.3   0       3387
+47      4949    801.3   0       4949
+48      4001    801.3   0       4001
+49      3014    801.3   0       3014
+50      2419    801.3   0       2419
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CAGGTTCA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/513_WT3_K27me3_CB8LUANXX_CAGGTTCA_all_trimmed.fq 513_WT3_K27me3_CB8LUANXX_CAGGTTCA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 232.94 s (4 us/read; 13.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              52,466,267
+Reads with adapters:                   737,482 (1.4%)
+Reads written (passing filters):    52,466,267 (100.0%)
+
+Total basepairs processed: 2,593,044,878 bp
+Total written (filtered):  2,588,704,988 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CAGGTTCA; Type: regular 3'; Length: 8; Trimmed: 737482 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 26.4%
+  C: 29.0%
+  G: 20.8%
+  T: 23.7%
+  none/other: 0.2%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       155580  819785.4        0       155580
+4       415997  204946.4        0       415997
+5       83411   51236.6 0       83411
+6       18461   12809.1 0       18461
+7       6305    3202.3  0       6305
+8       458     800.6   0       458
+9       955     800.6   0       955
+10      1056    800.6   0       1056
+11      1274    800.6   0       1274
+12      1225    800.6   0       1225
+13      1331    800.6   0       1331
+14      1444    800.6   0       1444
+15      1499    800.6   0       1499
+16      948     800.6   0       948
+17      1338    800.6   0       1338
+18      1759    800.6   0       1759
+19      1465    800.6   0       1465
+20      1887    800.6   0       1887
+21      1728    800.6   0       1728
+22      3969    800.6   0       3969
+23      1740    800.6   0       1740
+24      1096    800.6   0       1096
+25      1459    800.6   0       1459
+26      1540    800.6   0       1540
+27      1137    800.6   0       1137
+28      1513    800.6   0       1513
+29      1390    800.6   0       1390
+30      1416    800.6   0       1416
+31      1267    800.6   0       1267
+32      1066    800.6   0       1066
+33      1264    800.6   0       1264
+34      1349    800.6   0       1349
+35      1343    800.6   0       1343
+36      1290    800.6   0       1290
+37      1324    800.6   0       1324
+38      1265    800.6   0       1265
+39      1093    800.6   0       1093
+40      1307    800.6   0       1307
+41      1226    800.6   0       1226
+42      1304    800.6   0       1304
+43      1163    800.6   0       1163
+44      1223    800.6   0       1223
+45      1356    800.6   0       1356
+46      1040    800.6   0       1040
+47      1172    800.6   0       1172
+48      1214    800.6   0       1214
+49      978     800.6   0       978
+50      857     800.6   0       857
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a ACTGGTGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/517_WT3_K27me3_CB8LUANXX_ACTGGTGT_all_trimmed.fq 517_WT3_K27me3_CB8LUANXX_ACTGGTGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 224.37 s (4 us/read; 13.80 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              51,606,007
+Reads with adapters:                 1,577,534 (3.1%)
+Reads written (passing filters):    51,606,007 (100.0%)
+
+Total basepairs processed: 2,550,487,700 bp
+Total written (filtered):  2,543,980,509 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: ACTGGTGT; Type: regular 3'; Length: 8; Trimmed: 1577534 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 29.8%
+  C: 30.1%
+  G: 20.1%
+  T: 20.0%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       1059606 806343.9        0       1059606
+4       375132  201586.0        0       375132
+5       77053   50396.5 0       77053
+6       15209   12599.1 0       15209
+7       4124    3149.8  0       4124
+8       1353    787.4   0       1353
+9       1922    787.4   0       1922
+10      780     787.4   0       780
+11      814     787.4   0       814
+12      1087    787.4   0       1087
+13      1134    787.4   0       1134
+14      1051    787.4   0       1051
+15      1269    787.4   0       1269
+16      1055    787.4   0       1055
+17      715     787.4   0       715
+18      1207    787.4   0       1207
+19      1091    787.4   0       1091
+20      1059    787.4   0       1059
+21      1738    787.4   0       1738
+22      973     787.4   0       973
+23      814     787.4   0       814
+24      1197    787.4   0       1197
+25      1040    787.4   0       1040
+26      1008    787.4   0       1008
+27      984     787.4   0       984
+28      1037    787.4   0       1037
+29      1073    787.4   0       1073
+30      953     787.4   0       953
+31      979     787.4   0       979
+32      1010    787.4   0       1010
+33      1189    787.4   0       1189
+34      745     787.4   0       745
+35      1216    787.4   0       1216
+36      1116    787.4   0       1116
+37      1131    787.4   0       1131
+38      1075    787.4   0       1075
+39      1389    787.4   0       1389
+40      747     787.4   0       747
+41      1009    787.4   0       1009
+42      1174    787.4   0       1174
+43      1133    787.4   0       1133
+44      1106    787.4   0       1106
+45      1102    787.4   0       1102
+46      975     787.4   0       975
+47      1106    787.4   0       1106
+48      1345    787.4   0       1345
+49      708     787.4   0       708
+50      801     787.4   0       801
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a AGACATGC -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/525_TG3_K27me3_CB8LUANXX_AGACATGC_all_trimmed.fq 525_TG3_K27me3_CB8LUANXX_AGACATGC_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 282.06 s (4 us/read; 14.04 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              66,000,535
+Reads with adapters:                 1,307,115 (2.0%)
+Reads written (passing filters):    66,000,535 (100.0%)
+
+Total basepairs processed: 3,262,084,660 bp
+Total written (filtered):  3,256,089,994 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGACATGC; Type: regular 3'; Length: 8; Trimmed: 1307115 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 29.5%
+  C: 26.4%
+  G: 27.1%
+  T: 16.8%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       738959  1031258.4       0       738959
+4       433585  257814.6        0       433585
+5       37521   64453.6 0       37521
+6       31713   16113.4 0       31713
+7       8902    4028.4  0       8902
+8       2139    1007.1  0       2139
+9       1161    1007.1  0       1161
+10      1356    1007.1  0       1356
+11      1169    1007.1  0       1169
+12      1471    1007.1  0       1471
+13      1198    1007.1  0       1198
+14      1306    1007.1  0       1306
+15      1374    1007.1  0       1374
+16      1312    1007.1  0       1312
+17      1369    1007.1  0       1369
+18      1405    1007.1  0       1405
+19      1244    1007.1  0       1244
+20      1369    1007.1  0       1369
+21      1271    1007.1  0       1271
+22      1424    1007.1  0       1424
+23      1387    1007.1  0       1387
+24      1282    1007.1  0       1282
+25      1359    1007.1  0       1359
+26      1315    1007.1  0       1315
+27      1335    1007.1  0       1335
+28      1270    1007.1  0       1270
+29      1259    1007.1  0       1259
+30      1270    1007.1  0       1270
+31      1305    1007.1  0       1305
+32      1274    1007.1  0       1274
+33      1337    1007.1  0       1337
+34      1261    1007.1  0       1261
+35      1329    1007.1  0       1329
+36      1314    1007.1  0       1314
+37      1261    1007.1  0       1261
+38      1351    1007.1  0       1351
+39      1326    1007.1  0       1326
+40      1441    1007.1  0       1441
+41      1153    1007.1  0       1153
+42      1187    1007.1  0       1187
+43      1284    1007.1  0       1284
+44      1481    1007.1  0       1481
+45      1345    1007.1  0       1345
+46      1393    1007.1  0       1393
+47      1367    1007.1  0       1367
+48      1149    1007.1  0       1149
+49      981     1007.1  0       981
+50      851     1007.1  0       851
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a GACACAGT -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/534_TG3_K27me3_CB8LUANXX_GACACAGT_all_trimmed.fq 534_TG3_K27me3_CB8LUANXX_GACACAGT_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 248.95 s (4 us/read; 13.90 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              57,671,411
+Reads with adapters:                 1,188,026 (2.1%)
+Reads written (passing filters):    57,671,411 (100.0%)
+
+Total basepairs processed: 2,850,065,776 bp
+Total written (filtered):  2,844,863,401 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: GACACAGT; Type: regular 3'; Length: 8; Trimmed: 1188026 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 37.1%
+  C: 4.9%
+  G: 28.5%
+  T: 29.4%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       971715  901115.8        0       971715
+4       75238   225278.9        0       75238
+5       77814   56319.7 0       77814
+6       6120    14079.9 0       6120
+7       1150    3520.0  0       1150
+8       1716    880.0   0       1716
+9       1537    880.0   0       1537
+10      1294    880.0   0       1294
+11      1306    880.0   0       1306
+12      1273    880.0   0       1273
+13      1201    880.0   0       1201
+14      1482    880.0   0       1482
+15      1466    880.0   0       1466
+16      1174    880.0   0       1174
+17      1756    880.0   0       1756
+18      1078    880.0   0       1078
+19      1085    880.0   0       1085
+20      1621    880.0   0       1621
+21      1506    880.0   0       1506
+22      3134    880.0   0       3134
+23      1256    880.0   0       1256
+24      1427    880.0   0       1427
+25      1103    880.0   0       1103
+26      1288    880.0   0       1288
+27      1228    880.0   0       1228
+28      1134    880.0   0       1134
+29      1274    880.0   0       1274
+30      1066    880.0   0       1066
+31      1469    880.0   0       1469
+32      1245    880.0   0       1245
+33      1186    880.0   0       1186
+34      1041    880.0   0       1041
+35      1259    880.0   0       1259
+36      1202    880.0   0       1202
+37      1394    880.0   0       1394
+38      1022    880.0   0       1022
+39      1258    880.0   0       1258
+40      1282    880.0   0       1282
+41      1163    880.0   0       1163
+42      1293    880.0   0       1293
+43      1115    880.0   0       1115
+44      1838    880.0   0       1838
+45      1074    880.0   0       1074
+46      1017    880.0   0       1017
+47      1006    880.0   0       1006
+48      1015    880.0   0       1015
+49      912     880.0   0       912
+50      793     880.0   0       793
+
+This is cutadapt 1.15 with Python 3.5.2
+Command line parameters: -j 60 -a CCAGTTGA -o /NGS_Data/Andrew/Nugen_trimmed_samples/AGRF_K27me3_Nugen_Trimmed/535_TG3_K27me3_CB8LUANXX_CCAGTTGA_all_trimmed.fq 535_TG3_K27me3_CB8LUANXX_CCAGTTGA_all_trimmed.fq
+Running on 60 cores
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 256.55 s (4 us/read; 13.97 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              59,733,310
+Reads with adapters:                   496,489 (0.8%)
+Reads written (passing filters):    59,733,310 (100.0%)
+
+Total basepairs processed: 2,952,175,261 bp
+Total written (filtered):  2,949,549,700 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CCAGTTGA; Type: regular 3'; Length: 8; Trimmed: 496489 times.
+
+No. of allowed errors:
+0-8 bp: 0
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 26.5%
+  G: 18.7%
+  T: 29.7%
+  none/other: 0.1%
+
+Overview of removed sequences
+length  count   expect  max.err error counts
+3       326274  933333.0        0       326274
+4       35615   233333.2        0       35615
+5       75480   58333.3 0       75480
+6       19282   14583.3 0       19282
+7       4462    3645.8  0       4462
+8       319     911.5   0       319
+9       568     911.5   0       568
+10      867     911.5   0       867
+11      997     911.5   0       997
+12      802     911.5   0       802
+13      664     911.5   0       664
+14      948     911.5   0       948
+15      777     911.5   0       777
+16      825     911.5   0       825
+17      846     911.5   0       846
+18      1777    911.5   0       1777
+19      1121    911.5   0       1121
+20      1106    911.5   0       1106
+21      1074    911.5   0       1074
+22      2194    911.5   0       2194
+23      831     911.5   0       831
+24      725     911.5   0       725
+25      876     911.5   0       876
+26      831     911.5   0       831
+27      765     911.5   0       765
+28      627     911.5   0       627
+29      806     911.5   0       806
+30      759     911.5   0       759
+31      644     911.5   0       644
+32      859     911.5   0       859
+33      746     911.5   0       746
+34      879     911.5   0       879
+35      705     911.5   0       705
+36      627     911.5   0       627
+37      715     911.5   0       715
+38      783     911.5   0       783
+39      838     911.5   0       838
+40      754     911.5   0       754
+41      796     911.5   0       796
+42      705     911.5   0       705
+43      898     911.5   0       898
+44      656     911.5   0       656
+45      516     911.5   0       516
+46      863     911.5   0       863
+47      741     911.5   0       741
+48      550     911.5   0       550
+49      637     911.5   0       637
+50      359     911.5   0       359
+
+ubuntu@nectarbioinf
